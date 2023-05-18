@@ -58,6 +58,7 @@ public class DynamicRegistry implements ApplicationRunner {
 
     /**
      * register a threadPoolExecutor
+     * 后续支持其他线程池放入 TODO
      */
     public static void registerExecutor(ExecutorWrapper wrapper, String source) {
         log.info("DynamicTp register dtpExecutor, source: {}, executor: {}",

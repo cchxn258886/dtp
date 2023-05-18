@@ -2,13 +2,13 @@ package com.example.dtp.notifier.base;
 
 import cn.hutool.http.HttpRequest;
 import cn.hutool.http.HttpResponse;
-import cn.hutool.json.JSONUtil;
+
 import com.alibaba.fastjson2.JSONObject;
-import com.jjn.distribution.infrastructure.dynamictp.common.constant.DingNotifyConst;
-import com.jjn.distribution.infrastructure.dynamictp.common.util.DingSignUtil;
-import com.jjn.distribution.infrastructure.dynamictp.entity.MarkdownReq;
-import com.jjn.distribution.infrastructure.dynamictp.entity.NotifyPlatform;
-import com.jjn.distribution.infrastructure.dynamictp.enums.NotifyPlatFormEnum;
+import com.example.dtp.common.constant.DingNotifyConst;
+import com.example.dtp.common.util.DingSignUtil;
+import com.example.dtp.entity.MarkdownReq;
+import com.example.dtp.entity.NotifyPlatform;
+import com.example.dtp.enums.NotifyPlatFormEnum;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -16,7 +16,6 @@ import org.apache.commons.lang3.StringUtils;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
-import java.util.concurrent.TimeUnit;
 
 /**
  * @Author chenl

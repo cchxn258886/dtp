@@ -1,8 +1,9 @@
 package com.example.dtp.reject;
 
-import com.jjn.distribution.infrastructure.dynamictp.DynamicThreadPoolExecutor;
-import com.jjn.distribution.infrastructure.dynamictp.common.constant.DynamicThreadPoolConstant;
-import com.jjn.distribution.infrastructure.dynamictp.support.task.runnable.DynamicRunnable;
+
+import com.example.dtp.DynamicThreadPoolExecutor;
+import com.example.dtp.common.constant.DynamicThreadPoolConstant;
+import com.example.dtp.support.task.runnable.DynamicRunnable;
 import org.slf4j.Logger;
 import org.slf4j.MDC;
 

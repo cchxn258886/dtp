@@ -3,12 +3,12 @@ package com.example.dtp.notifier.base;
 import cn.hutool.http.HttpRequest;
 import cn.hutool.http.HttpResponse;
 import com.alibaba.fastjson2.JSONObject;
-import com.jjn.distribution.infrastructure.dynamictp.common.constant.WechatNotifyConst;
-import com.jjn.distribution.infrastructure.dynamictp.entity.MarkdownReq;
-import com.jjn.distribution.infrastructure.dynamictp.entity.NotifyPlatform;
-import com.jjn.distribution.infrastructure.dynamictp.enums.NotifyPlatFormEnum;
+
+import com.example.dtp.common.constant.WechatNotifyConst;
+import com.example.dtp.entity.MarkdownReq;
+import com.example.dtp.entity.NotifyPlatform;
+import com.example.dtp.enums.NotifyPlatFormEnum;
 import lombok.extern.slf4j.Slf4j;
-import springfox.documentation.spring.web.json.Json;
 
 import java.util.Objects;
 

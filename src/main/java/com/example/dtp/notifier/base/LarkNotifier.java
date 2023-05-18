@@ -2,9 +2,10 @@ package com.example.dtp.notifier.base;
 
 import cn.hutool.http.HttpRequest;
 import cn.hutool.http.HttpResponse;
-import com.jjn.distribution.infrastructure.dynamictp.common.constant.LarkNotifyConst;
-import com.jjn.distribution.infrastructure.dynamictp.entity.NotifyPlatform;
-import com.jjn.distribution.infrastructure.dynamictp.enums.NotifyPlatFormEnum;
+
+import com.example.dtp.common.constant.LarkNotifyConst;
+import com.example.dtp.entity.NotifyPlatform;
+import com.example.dtp.enums.NotifyPlatFormEnum;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 
